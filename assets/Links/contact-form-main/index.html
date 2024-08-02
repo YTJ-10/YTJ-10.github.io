@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./assets/fonts/Karla-VariableFont_wght.ttf">
+</head>
+<body>
+
+  <section>
+    <h2>Contact Us</h2>
+
+    <form action="" id="myForm">
+      <div class="name-wrapper">
+        <div class="name">
+          <label for=""> First Name <span>*</span></label>
+          <input type="text" id="firstName">
+          <p class="error first-name"></p>
+        </div>
+        <div class="name">
+          <label for=""> Last Name <span>*</span></label>
+          <input type="text" id="lastName">
+          <p class="error last-name"></p>
+        </div>
+      </div>
+      <label for=""> Email Address <span>*</span></label>
+      <input type="text" id="email">
+      <p class="error email-err"></p>
+      <div class="query-wrapper">
+        <div class="query">
+          <label for="">Query Type <span>*</span></label>
+          <button id="btn-querry1"><span><img class="query-check1" src="./assets/images/icon-radio-selected.svg" alt=""></span>General Enquiry</button>
+          <p class="error btn-err"></p>
+        </div>
+        <div class="query">
+          <button id="btn-querry2"><span><img class="query-check2" src="./assets/images/icon-radio-selected.svg" alt=""></span>Support Request</button>
+        </div>
+      </div>
+      <label for="">Message <span>*</span></label>
+      <textarea name="" id="message"></textarea>
+      <p class="error message-err"></p>
+      <div class="consent-wrapper">
+          <span><img src="./assets/images/icon-checkbox-check.svg" alt=""></span>
+          <p>  I consent to being contacted by the team</p>
+      </div>
+      <p class="error terms-err"></p>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <div class="message">
+    <div class="message-title">
+      <img src="./assets/images/icon-success-check.svg" alt="">
+      <h3> Message Sent!</h3>
+    </div>
+    <p>Thanks for completing the form. We'll be in touch soon!</p>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+ 
+  <!-- Please enter a valid email address
+  This field is required -->
+
+  
+  
+  
+  <!-- Please select a query type -->
+
+
+
+  <!-- To submit this form, please consent to being contacted -->
+
+
+<!-- 
+ 
+   -->
+  
+ <script src="./app.js"></script>
+</body>
+</html>
